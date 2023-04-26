@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="anime.min.js"></script>
+    <script src="https://kit.fontawesome.com/ceb8cfc409.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="/img/favico.ico" type="image/x-icon">
+
+    <title>Rhemacity Church Rcc</title>
+</head>
+<body>
+  <header>
+    <div class="header container">
+      <div id="logo">
+          <img src="/img/Simple_Hand_Drawn_Open_Bible-removebg-preview.png" alt="">
+      </div>
+      <div class="navbar">
+        <ul class="items">
+            <li><a href="#showcase">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#fellowship">Fellowship</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <script>
+              function smoothscroll(target, duration){
+        var targetElement =  document.querySelector(target);
+        var targetPosition = targetElement.offsetTop;
+        var startPosition = window.pageYOffset;
+        var distance = targetPosition - startPosition;
+        var startTime = null;
+    
+        function animation(currentTime){
+            if(startTime === null) startTime = currentTime;
+            var timeElapsed = currentTime - startTime;
+            var run = ease(timeElapsed, startPosition, distance, duration);
+            window.scrollTo(0, run);
+            if(timeElapsed < duration) requestAnimationFrame(animation);
+        }
+    
+        function ease(t, b, c, d){
+            t /= d /2;
+            if(t < 1) return c / 2 * t * t + b;
+            t--;
+            return -c / 2 * (t *(t - 2) - 1) + b;
+        }
+    
+        requestAnimationFrame(animation);
+    }
+    
+    var links = document.querySelector('a[href^="#"]');
+        links.forEach(function(link){
+          link.addEventListener('click', function(e){
+            e.preventDefault();
+            var target = this.getAttribute('href');
+            smoothscroll(target, 1000);
+        })
+        })
+                </script>
+        </ul>
+
+        
+    </div>
+  </div>
+  </header>
+  
+    <div id="showcase">
+        <div >
+           
+
+            <section class="showcase">
+                <div>
+                    <h3>Welcome To</h3>
+                    <h2>Rhemacity Church</h2>
+                    <div class="bottom-line-city"></div>
+                    <p>Jesus Christ the same yesterday, and today, and forever.<br>-Hebrews 13:8-</p><br>
+                    <button class="btn"><a href="#fellowship">Worship With Us</a> </button>
+                    <script>
+             
+                      function smoothscroll(target, duration){
+                 var targetElement =  document.querySelector(target);
+                 var targetPosition = targetElement.offsetTop;
+                 var startPosition = window.pageYOffset;
+                 var distance = targetPosition - startPosition;
+                 var startTime = null;
+             
+                 function animation(currentTime){
+                     if(startTime === null) startTime = currentTime;
+                     var timeElapsed = currentTime - startTime;
+                     var run = ease(timeElapsed, startPosition, distance, duration);
+                     window.scrollTo(0, run);
+                     if(timeElapsed < duration) requestAnimationFrame(animation);
+                 }
+             
+                 function ease(t, b, c, d){
+                     t /= d /2;
+                     if(t < 1) return c / 2 * t * t + b;
+                     t--;
+                     return -c / 2 * (t *(t - 2) - 1) + b;
+                 }
+             
+                 requestAnimationFrame(animation);
+             }
+             
+             var links = document.querySelectorAll('a[href^="#"]');
+             links.forEach(link => {
+                 link.addEventListener('click', function(e){
+                     e.preventDefault();
+                     var target = this.getAttribute('href');
+                     smoothscroll(target, 1000);
+                 })
+             })
+                         </script>
+                </div>
+                <img src="/img/Old open book with magic light and falling stars on wooden table.jfif" alt="">
+                <div class="amount">
+                  <div class="side-line"></div>
+                  <div class="members">
+                    <h5>10K</h5>
+                    <p>Worshippers</p>
+                  </div>
+                  <div class="side-line"></div>
+                  <div class="members">
+                    <h5>5K</h5>
+                    <p>Members</p>
+                  </div>
+                  <div class="side-line"></div>
+                  <div class="members">
+                    <h5>1K</h5>
+                    <p>Streamers</p>
+                  </div>
+                  <div class="side-line"></div>
+                </div>
+                  </div>
+              </div>
+              <!-- <div class="overlay"></div> -->
+            </section>
+          
+           
+        
+        <section id="about" class="container">
+            <h2>About Our Ministry</h2>
+            <div class="bottom-line"></div>
+          <div class="about">
+            <div class="card box-1">
+                <img src="/img/Eat, pray, live_ the Lagos megachurches building their very own cities.jfif" alt="">
+                <div class="card-text">
+              <h4>
+                Our vision
+              </h4>
+              <div class="bottom-line"></div>
+              <p>Creating a Christ-Centered World founded on sound teachings (THE WORD) for fufilling Life's Purposes</p>
+            </div>
+            </div>
+            <div class="card box-2">
+                <img src="/img/Eat, pray, live_ the Lagos megachurches building their very own cities.jfif" alt="">
+                <div class="card-text">
+              <h4>
+                Our mission
+              </h4>
+              <div class="bottom-line"></div>
+              <ul>
+              <li>To teach the living, Active and potent word of God to enlighten minds</li>
+              <li>To Train God's people through the word to empower lives</li>
+              <li>To transform lives of people through exercising of the word</li>
+            </ul>
+            </div>
+            </div>
+            <div class="card box-2">
+                <img src="/img/Eat, pray, live_ the Lagos megachurches building their very own cities.jfif" alt="">
+                <div class="card-text">
+              <h4>
+               Our Core Values
+              </h4>
+              <div class="bottom-line"></div>
+              <ul>
+              <li>To teach the living, Active and potent word of God to enlighten minds</li>
+              <li>To Train God's people through the word to empower lives</li>
+              <li>To transform lives of people through exercising of the word</li>
+            </ul>
+            </div>
+            </div>
+            <!-- <div class="card box-3">
+                <img src="/img/Old open book with magic light and falling stars on wooden table.jfif" alt="">
+                <div class="card-text">
+                    <h4>
+                      Our Core Values
+                    </h4>
+                    <div class="bottom-line"></div>
+                   <ul>
+                      <li>R-RESPONSIBILITY</li>
+                      <li>H-HOSPITALITY</li>
+                      <li>E-EXCELLENCE </li>
+                      <li>M-MATURITY </li>
+                      <li>A-AVAILABILITY</li>
+                   </ul> 
+                </div>  
+            </div> -->
+          </div>
+        </section>
+        <section id="fellowship" class="container">
+          <div class="fellowship">
+                <h2>Worship With us Today</h2>
+                <div class="bottom-line"></div>
+                    <video autoplay muted loop class="vid" src="/img/WhatsApp Video 2023-04-23 at 00.24.44.mp4"></video>
+                <div class="worship">
+                  <div class="box">
+                    <h4>Sunday Empowerment service<br><span>9:30AM - 11:30AM</span></h4>
+                    <h3>1</h3>
+                  </div>
+                  <div class="box">
+                    
+                    <h4>Tuesday leadership training/bible studies<br><span> 7:00PM - 8:30PM</span></h4>
+                    <h3>2</h3>
+                  </div>
+                  <div class="box">
+                    <h4>Friday prayer & worship Night<br> <span>7:00PM - 8:30PM</span></h4>
+                    <h3>3</h3>
+                  </div>
+                </div>
+          </div>
+        </section>
+
+        <section id="contact" class="container">
+             <form action="" id="form">
+              <h2>Contact Us</h2>
+              <div class="bottom-line"></div>
+              <div class="form">
+                <div>
+                  <label for="firstname">First Name</label>
+                  <input type="text" placeholder="firstname">
+                </div>
+                <div>
+                  <label for="lastname">Last Name</label>
+                  <input type="text" placeholder="lastname">
+                </div>
+                <div>
+                  <label for="phone">Phone Number</label>
+                  <select name="" id="" disabled>
+                    <option value="+233">+233</option>
+                  </select>
+                  <input type="number" placeholder="Number">
+                </div>
+                <div>
+                  <label for="phone">WhatsApp Number</label>
+                  <select name="" id="" disabled>
+                    <option value="+233">+233</option>
+                  </select>
+                <input type="number" placeholder="WhatsApp No.">
+                </div>
+                <div class="city">
+                  <label for="city">City</label>
+                   <select name="" id="">
+                    <option value="Apra">Apra</option>
+                    <option value="buduburam">Buduburam</option>
+                    <option value="botoku">Botoku</option>
+                    <option value="Kasoa">Kasoa</option>
+                    <option value="Obutu">Obutu</option>
+                    <option value="Ojobi">Ojobi</option>
+                    <option value="Osonkoti">Osonkoti</option>
+                   </select>
+                </div>
+                <div>
+                  <label for="">Address</label>
+                  <input type="text" placeholder="Street Address">
+                </div>
+                <div class="text-area">
+                  <label for="messgae">Message</label>
+                  <textarea name="" id="" cols="30" rows="5"></textarea>
+                </div>
+              </div>
+              <button type="submit" class="submit">Submit</button>
+             </form>
+        </section>
+
+        <section id="gospel" class="container">
+          <h2>The Gospel</h2>
+            <div class="bottom-line"></div>
+          <div class="gospel">
+            <ul>
+              <li class="list">Are you a Sinner? <i class="fas fa-chevron-down"></i>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo necessitatibus corrupti omnis recusandae, eaque aliquid sit distinctio? Unde itaque voluptatem laborum quae perspiciatis, aliquid et facere laudantium adipisci! Quaerat, mollitia, ut quos sequi cupiditate similique enim maiores, amet ullam error fugiat aut explicabo ab distinctio reiciendis facilis voluptate iste fuga?<br>-Hebrew 10:10-</li>
+                  </ul>
+            <li class="list">Are you a Sinner? <i class="fas fa-chevron-down"></i>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi praesentium, nostrum adipisci officia recusandae sit numquam. Iusto, vero? Dolorem quis voluptatem beatae veritatis libero corporis modi provident laudantium impedit ex, eveniet, delectus autem voluptates pariatur debitis commodi nisi cumque. Doloremque quo fugit tempora repellat ipsam eligendi voluptates magnam officia.<br>-Hebrew 10:10-</li>
+              </ul>
+              <li class="list">Are you a Sinner? <i class="fas fa-chevron-down"></i> 
+                <ul>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi quo nam eum voluptate facere minima officia vitae! Aliquid minima beatae nesciunt doloremque, architecto quis nemo rem laudantium ipsa facere quasi fugit sed quas laborum, sequi, nam facilis sapiente consequatur nobis. Dolorum consectetur a aspernatur nulla non. Maxime, similique eveniet.<br>-Hebrew 10:10-</li>
+                </ul>
+              <li class="list">Are you a Sinner? <i class="fas fa-chevron-down"></i> 
+                <ul>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi quo nam eum voluptate facere minima officia vitae! Aliquid minima beatae nesciunt doloremque, architecto quis nemo rem laudantium ipsa facere quasi fugit sed quas laborum, sequi, nam facilis sapiente consequatur nobis. Dolorum consectetur a aspernatur nulla non. Maxime, similique eveniet.<br>-Hebrew 10:10-</li>
+                </ul>
+              <li class="list">Are you a Sinner? <i class="fas fa-chevron-down"></i> 
+                <ul>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi quo nam eum voluptate facere minima officia vitae! Aliquid minima beatae nesciunt doloremque, architecto quis nemo rem laudantium ipsa facere quasi fugit sed quas laborum, sequi, nam facilis sapiente consequatur nobis. Dolorum consectetur a aspernatur nulla non. Maxime, similique eveniet.<br>-Hebrew 10:10-</li>
+                </ul>
+            </ul>
+          </div>
+        </section>
+        <footer id="footer">
+            <hr>
+            <div class="footer">
+         
+                <div class="main-footer container">
+                    <div class="flex-foot">
+                    <div class="first">
+                    <div>
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Help & Contact</h4>
+                        <ul>
+                            <li><a href=""><i class="fas fa-life-ring"></i> Help Center</a></li>
+                            <li><a href="mailto:rhemacitychurch2022@gmail.com"><i class="fas fa-envelope"></i> Email Us</a></li>
+                            <li><a href=""><i class="fas fa-phone"></i> +233242150008</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Address</h4>
+                        <p class="location"> <i class="fas fa-location"></i>
+                         New market road Kasoa (Behind Fidelity)</p>
+                       
+                        <!-- <ul>
+                            <li><a href="">Bulk/Party Order</a></li>
+                            <li><a href="">Cake Order</a></li>
+                            <li><a href="">FreshClub</a></li>
+                            <li><a href="">Offers</a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="second">
+                    <h4>Subscribe to our Monthly Sermon</h4>
+                    <div>
+                        <input type="email" name="" id="input" placeholder="Enter an email"><button class="subscribe" placeholder="Enter Your Email">Subscribe</button>
+                    </div>
+                </div>
+                </div>
+                <div class="third">
+                    <div>
+                        <ul>
+                            <li><a href="">Terms</a></li>
+                            <li><a href="">Privacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="social">
+                        <div id="logo">
+                            <img src="/img/Simple_Hand_Drawn_Open_Bible-removebg-preview.png" alt="">
+                             
+                        </div>
+                        <ul>
+                       <li><a href="https://www.facebook.com/profile.php?id=100092328752686"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+                       <li><a href="www.instagram.com"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                       <li><a href="mailto:rhemacitychurch2022@gmail.com"><i class="fas fa-envelope fa-2x"></i></a></li>
+                      </ul>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <p class="foot-p">Jesus is Lord</p>
+            </div>
+        </footer>
+        <div class="contact-alt">
+            <button><a href="https://wa.me/+233242150008"><i class="fa-brands fa-whatsapp fa-3x"></i></a></button>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>

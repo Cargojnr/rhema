@@ -1,0 +1,270 @@
+@media (max-width: 700px) {
+    .container {
+        max-width: 500px;
+    }
+
+    header {
+        background: #333;
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* header ul {
+     flex-direction: column;
+    } */
+
+    .header ul li {
+        padding: 0;
+        margin: .5rem 0;
+    }
+
+    .header ul li a {
+        padding: .5rem .75rem;
+        margin: .2rem;
+    }
+
+    .showcase h3 {
+        font-size: 2rem;
+    }
+
+    .showcase p {
+        font-size: 1rem;
+    }
+
+    .showcase h2 {
+        font-size: 3rem;
+    }
+
+    .about {
+        display: block;
+    }
+
+    .about div{
+        margin: 1rem auto;
+    }
+
+    .worship {
+        display: block;
+    }
+
+    .worship .box {
+        margin: 1rem 0;
+        width: auto;
+    }
+
+    #form {
+        display: block;
+        padding: 1rem;
+    }
+
+    #contact .bottom-line {
+        display: none;
+    }
+
+    #form h2 {
+        font-size: 2rem;
+        text-align: center;
+    } 
+    
+    .form {
+        display: block;
+    }
+
+    #form input {
+        width: 100%;
+    }
+
+    #form div {
+        margin: 1rem 0;
+    }
+
+    .submit {
+        width: 100%;
+    }
+
+    .flex-foot {
+        display: block;
+    }
+
+    .first {
+        display: block;
+    }
+
+    .first div {
+        margin: 1rem;
+    }
+
+    .bottom-line-city {
+        display: none;
+    }
+
+    .bottom-line {
+        margin: .5rem auto;
+
+    }
+
+    .social {
+        display: block;
+    }
+
+    .second input {
+        width: auto;
+    }
+
+    .overlay {
+        height: 64vh;
+    }
+
+    .second{
+        padding: 1rem;
+    }
+    .third {
+        padding: 1rem;
+    }
+
+    #form label {
+        margin: .5rem 0;
+    }
+    #form input,
+    #form select {
+        margin: .5rem 0;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .worship {
+        display: block;
+    }
+
+    .worship .box {
+        margin: 1rem auto;
+        width: 100%;
+    }
+    .flex-foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+    .third {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .about {
+        gap: 20px;
+    }
+
+    .card img {
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 900px) {
+    .flex-foot {
+        display: block;
+    }
+    .worship {
+        display: block;
+    }
+
+    .worship .box {
+        margin: 1rem auto;
+        width: 100%;
+    }
+
+    .about {
+        gap: 20px;
+    }
+    .third{
+        display: block;
+    }
+
+    .card img {
+        height: 350px;
+        object-fit: cover;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    
+    #form label {
+        margin: 1rem 0;
+    }
+
+   #footer {
+    padding: .5rem;
+   }
+   .social ul{
+     justify-content: center;
+   }
+   .card img {
+    object-fit: cover;
+    height: 300px;
+   }
+}
+
+@media (max-width: 400px) {
+    .worship .box {
+       height: 100px;
+        margin: 3rem auto;
+    }
+
+    .worship .box h3 {
+        height: 100%;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header ul {
+        display: block;
+        text-align: center;
+    }
+
+    .header ul li {
+        margin: .75rem;
+        border-bottom:2px dotted #777 ;
+        padding: .5rem;
+    }
+    .card img {
+        object-fit: cover;
+    }
+}
+/* @media (max-width: 900px) {
+    .about {
+        display: block;
+    }
+
+    
+    #about h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+     */
+    /* .card { */
+        /* padding: 2rem 1rem;
+        background: #e7e7e7; */
+        /* width: 350px; */
+        /* position: relative;
+    } */
+    /* .card-text { */
+        /* display: none; */
+        /* position: absolute;
+        top: 5%;
+        left: 3%;
+        z-index: 2;
+        color: #fff;
+        font-weight: 200;
+        text-align: center;
+        animation: about 0.5s ease-in-out;
+    }
+} */
