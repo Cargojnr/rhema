@@ -518,6 +518,10 @@ textarea {
     width: 100%;
 }
 
+.second form {
+    position: relative;
+}
+
 .second h4 {
     color: #999;
     text-transform: uppercase;
