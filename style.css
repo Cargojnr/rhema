@@ -453,6 +453,10 @@ textarea {
     justify-content: space-between; */
 }
 
+ .list .fa-chevron-right {
+    color: red;        
+}
+
  .list:hover  .fa-chevron-right {
     transform: rotateX(45deg);        
 }
