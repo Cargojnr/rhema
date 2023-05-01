@@ -458,7 +458,7 @@ textarea {
 }
 
  .list:hover  .fa-chevron-right {
-    transform: rotateX(45deg);        
+    transform: rotate(45deg);        
 }
 
 /* .fa-chevron-down {
