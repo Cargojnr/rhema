@@ -453,6 +453,10 @@ textarea {
     justify-content: space-between; */
 }
 
+.gospel .list:hover .fa-chevron-right {
+    transform: rotateY(270deg);        
+}
+
 /* .fa-chevron-down {
     
 } */
