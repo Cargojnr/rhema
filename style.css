@@ -453,7 +453,7 @@ textarea {
     justify-content: space-between; */
 }
 
-.gospel .list:hover .fa-chevron-right {
+.gospel .list .fa-chevron-right:hover {
     transform: rotateY(270deg);        
 }
 
