@@ -454,11 +454,12 @@ textarea {
 }
 
  .list .fa-chevron-right {
-    color: red;        
+    color: red;     
+     transistion: transform 0.2s ease-in-out;
 }
 
  .list:hover  .fa-chevron-right {
-    transform: rotate(45deg);        
+    transform: rotate(90deg);        
 }
 
 /* .fa-chevron-down {
