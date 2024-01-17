@@ -232,29 +232,29 @@
               <div class="form">
                 <div>
                   <label for="firstname">First Name</label>
-                  <input type="text" placeholder="firstname">
+                  <input type="text" name="name" placeholder="firstname">
                 </div>
                 <div>
                   <label for="lastname">Last Name</label>
-                  <input type="text" placeholder="lastname">
+                  <input type="text" name="name" placeholder="lastname">
                 </div>
                 <div>
                   <label for="phone">Phone Number</label>
-                  <select name="" id="" disabled>
+                  <select name="role[]" multiple name="" id="" disabled>
                     <option value="+233">+233</option>
                   </select>
-                  <input type="number" placeholder="Number">
+                  <input type="number" name="number" placeholder="Number">
                 </div>
                 <div>
                   <label for="phone">WhatsApp Number</label>
-                  <select name="" id="" disabled>
+                  <select name="role[]" multiple name="" id="" disabled>
                     <option value="+233">+233</option>
                   </select>
-                <input type="number" placeholder="WhatsApp No.">
+                <input type="number" name="number" placeholder="WhatsApp No.">
                 </div>
                 <div class="city">
                   <label for="city">City</label>
-                   <select name="" id="">
+                   <select name="role[]" multiple name="" id="">
                     <option value="Apra">Apra</option>
                     <option value="buduburam">Buduburam</option>
                     <option value="botoku">Botoku</option>
@@ -266,11 +266,11 @@
                 </div>
                 <div>
                   <label for="">Address</label>
-                  <input type="text" placeholder="Street Address">
+                  <input type="text" name="text" placeholder="Street Address">
                 </div>
                 <div class="text-area">
-                  <label for="messgae">Message</label>
-                  <textarea name="" id="" cols="30" rows="5"></textarea>
+                  <label for="message">Message</label>
+                  <textarea name="message" id="" cols="30" rows="5"></textarea>
                 </div>
               </div>
               <button type="submit" class="submit">Submit</button>
